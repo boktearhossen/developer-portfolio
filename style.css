@@ -17,7 +17,10 @@
 }
 
 
-
+/* header */
+.header{
+    background-color: #FFF8F3;
+}
   .nav-title{
     color: #181818;
     font-size: 45px;
@@ -28,9 +31,11 @@
    
   }
   nav{
+    margin: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
   }
   nav ul{
     display: flex;
@@ -44,4 +49,18 @@
   nav a{
     text-decoration: none;
     color: #474747;
+  }
+  .banner{
+    margin: 30px 50px 30px 130px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner img{
+   width: 400px;
+
+  }
+  *{
+    margin: 0;
+    padding: 0;
   }
